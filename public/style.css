@@ -1,0 +1,31 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #e8eadd;
+}
+div.line1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7c8e54;
+}
+div.line2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #e8eadd;
+  background-color: #3b313d;
+}
+
+header .title {
+  font-family: "Roboto";
+  font-size: 2em;
+}
+header img {
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  border: 0.2em solid black;
+}
